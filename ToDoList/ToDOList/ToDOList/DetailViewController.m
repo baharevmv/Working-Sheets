@@ -1,18 +1,24 @@
 //
-//  ViewController.m
+//  DetailViewController.m
 //  ToDOList
 //
 //  Created by max on 07.12.17.
 //  Copyright © 2017 Maxxi. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "DetailViewController.h"
 
-@interface ViewController ()
+@interface DetailViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+
+@property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
+
+- (IBAction)buttonAction:(id)sender;
 
 @end
 
-@implementation ViewController
+@implementation DetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -26,4 +32,7 @@
 }
 
 
+- (IBAction)buttonAction:(id)sender {
+    NSLog(@"Button Pushed");
+}
 @end

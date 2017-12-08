@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailViewController.h
 //  ToDOList
 //
 //  Created by max on 07.12.17.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface DetailViewController : UIViewController
 
 
 @end
